@@ -15,7 +15,7 @@ function showSecret() {
     paraTwo.text("Malibu Rising by Taylor Jenkins Reid");
     paraThree.text(`And saving the best for last... \n The Seven Husbands of Evelyn Hugo by Taylor Jenkins Reid`);
     paraThree.html(paraThree.html().replace(/\n/g,'<br/>'));
-    image.attr("src", "https://lh3.googleusercontent.com/proxy/jOQYJh67h0uUVjthnc2boEcMmbdKM7OTaWkWwTEE6h1YlEns26bdmdb5opuP3k6XJGWbxamZ9OM29NxgpSw-o2ArK8Xjk3vB7XVDmWH7bdpn03XmS1aUyBM");
+    image.attr("src", "https://ashsinfinitelibrary.files.wordpress.com/2018/09/evelyn-hugo.jpg");
     image.attr("alt", "Spread of The Seven Husbands of Evelyn Hugo");
   } else {
     header.removeClass("changeColor");
